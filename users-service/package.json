@@ -1,0 +1,17 @@
+{
+  "name": "users-service",
+  "version": "1.0.0",
+  "description": "users microservice using docker, nodejs and mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm test"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "mysql": "^2.11.1"
+  }
+}
